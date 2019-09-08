@@ -7,5 +7,5 @@ docker build -t dnsmasq-docker .
 # docker build
 docker pull huangsen365/dnsmasq-docker
 
-# docker fun
+# docker run
 docker run -d --restart=always -p 53:53/tcp -p 53:53/udp --cap-add=NET_ADMIN huangsen365/dnsmasq-docker
