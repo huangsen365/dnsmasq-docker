@@ -21,5 +21,6 @@ docker run \
  -v /root/mydnsmasq_20190907/etc_dnsmasq.d:/etc/dnsmasq.d \
  -v /root/mydnsmasq_20190907/etc_dnsmasq.conf:/etc/dnsmasq.conf \
  -v /root/mydnsmasq_20190907/dnsmasq_8.log:/var/log/dnsmasq_8.log \
- --name mydnsmasq_20190907_img_c mydnsmasq_20190907_img \
+ --name mydnsmasq_20190907_img_c \
+ mydnsmasq_20190907_img \
  --log-facility=/var/log/dnsmasq_8.log
